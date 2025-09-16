@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinoth | Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main>
+    <div id="imageModal" class="modal">
+            <span class="close-btn">&times;</span>
+            <img class="modal-content" id="modalImage" src="" alt="Profile Image">
+        </div>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+    <img src="my_img2.png" alt="Vinoth D" width="80" data-profile-img>
+</figure>
+
+       <div class="info-content">
+          <h1 class="name" title="Vinoth D">VINOTH D</h1>
+          <h5 class="name1">B.E.-Computer Science & Design</h5>
+          <p class="title">UI/UX & Full Stack Developer</p>
+        </div>
+      </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+<a href="mailto:vinoth.cd22@bitsathy.ac.in" class="contact-link">vinoth.cd22@bitsathy.ac.in</a>
+              <a href="mailto:vinothduraiyan@gmail.com" class="contact-link">vinothduraiyan@gmail.com</a>            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919123596063" class="contact-link">+91 9123596063</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">DOB</p>
+
+              <time datetime="2003-06-12">June 12, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>12,vasantham royal Gradan 3, Nasiyanur, Erode, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vinothduraiyan/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/VinothBit" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/VINOTH_DURAIYAN/" class="social-link">
+              <img src="https://simpleicons.org/icons/leetcode.svg" alt="Leetcode icon" style="width: 24px; height: 24px; fill: currentColor;">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://codeforces.com/profile/vinothduraiyan" class="social-link">
+<img src="https://cdn.simpleicons.org/codeforces/white" alt="Codeforces icon" style="width: 24px; height: 24px;">            </a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link active">Portfolio</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+              <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/VinothBit/Drone-Control-Panel">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="Dron_img.png" alt="Drone Control Website" loading="lazy">
+                </figure>
+                <h3 class="project-title">Drone Control Website</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+           <!--  <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://www.your-flight-ticket-url.com">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="Flight_img.png" alt="Flight Ticket Booking" loading="lazy">
+                </figure>
+                <h3 class="project-title">Flight Ticket Booking Platform</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+             -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://vinothbit.github.io/Study-Hub/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="Studyhub_img.png" alt="Study Hub" loading="lazy">
+                </figure>
+                <h3 class="project-title">Study Hub</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
